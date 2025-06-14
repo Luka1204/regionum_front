@@ -1,0 +1,38 @@
+.header
+{
+    background-color: rgb(47, 147, 241) !important;
+    width:100vw !important;
+}
+
+.nav
+{
+    display:flex !important;
+    font-size:21px;
+    width:100vw !important;
+}
+
+.list_nav
+{
+    display: flex !important;
+    list-style: none !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+}
+
+.nav_list_item
+{
+    padding: 20px;
+    margin:10px
+
+}
+.nav_logo
+{
+    color:rgb(255, 238, 0);
+    font-weight: bold;
+    font-size:30px;
+}
+
+.nav_link
+{
+    color:white !important;
+}

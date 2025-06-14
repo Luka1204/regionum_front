@@ -1,0 +1,15 @@
+.login_sct
+{
+    display: block;
+    margin:0px auto;
+}
+
+.title_login
+{
+    margin:0px auto;
+    width:100%;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    font-size:30px;
+}

@@ -1,0 +1,85 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/css/navbar.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+.navbar_header__2EwBX
+{
+    background-color: rgb(47, 147, 241) !important;
+    width:100vw !important;
+}
+
+.navbar_nav__O8IuP
+{
+    display:flex !important;
+    font-size:21px;
+    width:100vw !important;
+}
+
+.navbar_list_nav__TKZdx
+{
+    display: flex !important;
+    list-style: none !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+}
+
+.navbar_nav_list_item__kL3qe
+{
+    padding: 20px;
+    margin:10px
+
+}
+.navbar_nav_logo__0LzoF
+{
+    color:rgb(255, 238, 0);
+    font-weight: bold;
+    font-size:30px;
+}
+
+.navbar_nav_link__16_Nk
+{
+    color:white !important;
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/css/sidebar.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.sidebar_sidebar__CDEk5 {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: rgb(47, 147, 241); /* Celeste igual que navbar */
+    padding-top: 60px;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+}
+
+.sidebar_open__2BDwU {
+    left: 0;
+}
+
+.sidebar_sidebar__CDEk5 a {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    transition: 0.2s;
+}
+
+.sidebar_sidebar__CDEk5 a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar_hamburger__Ok10l {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: white;
+    z-index: 1100;
+    cursor: pointer;
+}
